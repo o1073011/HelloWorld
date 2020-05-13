@@ -15,11 +15,17 @@ public class MainActivity extends AppCompatActivity {
         txv.setText("Hello tcyang");
 
         TestMaster();
+        TestDev();
     }
 
     public void TestMaster(){
         TextView txv = (TextView) findViewById(R.id.txv);
         txv.setText("Master分支");
+    }
+
+    public void TestDev(){
+        TextView txv = (TextView) findViewById(R.id.txv);
+        txv.setText("Dev分支");
     }
 
 }
